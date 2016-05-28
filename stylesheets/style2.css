@@ -4,6 +4,7 @@ body {
 	margin:0;
 	color:#e9e9e9;
 	line-height: 1.5em;
+	font-family: Microsoft YaHei, 微软雅黑, Arial Black;
 }
 
 /** Banner **/
@@ -39,7 +40,15 @@ body {
 	font-size: 1rem;
 	line-height: 1.8;
 }
-
+#project_title {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	padding-top: 200px;
+	font-weight: 600;
+	font-size: 10rem;
+	line-height: 1;
+	color: #e9e9e9;
+}
 /** Section **/
 .section-title {
 	display: block;
@@ -91,32 +100,19 @@ body {
 }
 
 /** Element **/
-a.btn,
-a.fakelink {
+a {
 	color: #FFFFFF;
 	text-decoration: none;
-	transition-property: color;
+	transition-property: all;
 	transition-duration: .3s;
 	transition-timing-function: ease-out;
 }
 a.fakelink {
 	cursor: default;
 }
-a.fakelink:hover {
+a:hover {
 	color: #CCCCCC;
 }
-
-#project_title {
-	margin-top: 0px;
-	margin-bottom: 30px;
-	padding-top: 200px;
-	font-family: Arial Black;
-	font-weight: 600;
-	font-size: 10rem;
-	line-height: 1;
-	color: #e9e9e9;
-}
-
 
 .jumping-arrow {
 	float: none;
@@ -128,12 +124,25 @@ a.fakelink:hover {
 	max-width: 70px;
 	fill: rgba(255,255,255,0.8);
 }
-
+.icon-plus {
+	background-image: url(../images/plus.svg);
+	width: 48px;
+	height: 48px;
+	margin: 88px 0 88px 0;
+	background-position: center;
+    background-size: cover;
+}
+.icon-download {
+	background-image: url(../images/download.svg);
+	width: 32px;
+	height: 32px;
+	background-position: center;
+    background-size: cover;
+}
 /** img **/
 
 #weibo-pic {
-	width: 150px;
-	height: 150px;
+	width: 120px;
 }
 .pic-divide-group,
 .pic-group {
@@ -181,16 +190,21 @@ a.fakelink:hover {
 .btn {
 	width: 200px;
 	height: 100px;
-	background: orange;
+	background: #505050;
 	display: block;
 	border-radius: 7px;
 }
 
+a.btn:hover {
+	color: black;
+	background: #CCCCCC;
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+
 #new-btn {
 	margin: 3em auto 0 auto;
-	background-image: -moz-linear-gradient(top, #ffc68f, #fa8a37); /* Firefox */
-	background-image: -webkit-gradient(linear, top, bottom, color-stop(0, #ffc68f), color-stop(1, #fa8a37)); /* Saf4+, Chrome */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc68f', endColorstr='#fa8a37', GradientType='0'); /* IE*/
 }
 
 #buy-btn {
@@ -204,29 +218,18 @@ a.fakelink:hover {
 }
 #dl-primary {
 	font-size: 30px;
-	color: #111111;
 	display: block;
 	padding-top: 28px;
-	padding-left: 8px;
-	text-shadow: 1px 1px 4px #aa5555;
 }
 
 #dl-secondary {
 	font-size: 14px;
-	color: #222222;
 	display: block;
 	padding-top: 7px;
 	padding-left: 8px;
+	text-align: left;
 }
 
-/****/
-.icon-plus {
-	background-image: url(../images/plus.svg);
-	width: 48px;
-	margin: 88px 0 88px 0;
-	background-position: center;
-    background-size: cover;
-}
 /** table **/
 
 .table {
@@ -270,6 +273,10 @@ a.table-item:hover {
 .table-item-proc {
 	float: right !important;
 	color: #999999;
+}
+
+.table-item-desc {
+	color: #888888;
 }
 
 /** Animation **/
