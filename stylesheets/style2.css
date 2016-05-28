@@ -19,11 +19,13 @@ body {
     margin-left: auto;
     background-image: url(../images/CD2.jpg);
     background-position: center center;
-    background-size: cover;
     background-attachment: fixed;
     position: relative;
     min-height: 70rem;
 	text-align: center;
+	background-size: cover !important;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 /****/
 .title-second {
@@ -435,6 +437,11 @@ a.table-item:hover {
 	#footer_wrap {
 		line-height: 22px;
 		padding: 0 3% 0 3%;
+	}
+}
+@media (max-width: 500px){
+	.title-float-block {
+		background-size: auto 100%;
 	}
 }
 @media (max-width: 480px){
