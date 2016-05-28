@@ -400,7 +400,7 @@ a.table-item:hover {
 		padding: 4px 0;
 	}
 	.item-desc-pic {
-		min-height: 80px;
+		min-height: 70px;
 	}
 	.title-float-block {
 		min-height: 40rem;
@@ -413,9 +413,9 @@ a.table-item:hover {
 		margin-top: 0;
 	}
 	.icon-plus {
-		width: 32px;
-		height: 32px;
-		margin: 32px 0 32px 0;
+		width: 28px;
+		height: 28px;
+		margin: 28px 0 28px 0;
 	}
 	.section-content-left,
 	.section-content-right{
@@ -425,9 +425,36 @@ a.table-item:hover {
 		clear: both;
 		float: none;
 	}
+	.table {
+		width: 96%;
+	}
+	#footer_wrap {
+		line-height: 22px;
+		padding: 0 3% 0 3%;
+	}
 }
 @media (max-width: 480px){
-	
+	#project_title {
+		padding-top: 120px;
+		font-size: 3.5rem;
+	}
+	.btn-name {
+		font-size: 14px;
+		padding: 4px 0;
+	}
+	#buy-price {
+		font-size: 20px;
+		margin-top: 0;
+	}
+	.icon-plus {
+		width: 24px;
+		height: 24px;
+		margin: 24px 0 24px -1px;
+	}
+	.section-content-left,
+	.section-content-right{
+		width: 96%;
+	}
 }
 /** Animation **/
 
