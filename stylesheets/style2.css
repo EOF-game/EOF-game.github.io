@@ -385,7 +385,9 @@ a.table-item:hover {
 		margin-right: 7%;
 		margin-left: 7%;
 	}
-	
+	.title-desc {
+		font-size: 14px;
+	}
 	#video-flash {
 		width: 580px;
 	}
@@ -436,7 +438,10 @@ a.table-item:hover {
 @media (max-width: 480px){
 	#project_title {
 		padding-top: 120px;
-		font-size: 3.5rem;
+		font-size: 3.2rem;
+	}
+	.hide-xs {
+		display: none;
 	}
 	.btn-name {
 		font-size: 14px;
@@ -449,11 +454,14 @@ a.table-item:hover {
 	.icon-plus {
 		width: 24px;
 		height: 24px;
-		margin: 24px 0 24px -1px;
+		margin: 24px 0 24px -3px;
 	}
 	.section-content-left,
 	.section-content-right{
 		width: 96%;
+	}
+	.pic-group p {
+		font-size: 14px;
 	}
 }
 /** Animation **/
