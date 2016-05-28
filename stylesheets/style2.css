@@ -391,7 +391,9 @@ a.table-item:hover {
 	#video-flash {
 		width: 580px;
 	}
-	
+	.hide-ms {
+		display: none;
+	}
 	#buy-btn {
 		width: 90%;
 		height: 32px;
