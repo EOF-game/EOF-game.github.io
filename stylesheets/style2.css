@@ -33,8 +33,8 @@ body {
 }
 
 .title-desc {
-
-	width: 600px;
+	max-width: 600px;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 1rem;
@@ -76,6 +76,15 @@ body {
 	max-width: inherit;
 }
 
+#desc-video {
+	min-width: 544px;
+	width: 56.7%;
+	text-align: center;
+	margin-right: 2.6%;
+}
+#desc-text {
+	width: 36.7%;
+}
 .section-content-left {
 	margin-right: 6.6%;
 	clear: left;
@@ -279,6 +288,147 @@ a.table-item:hover {
 	color: #888888;
 }
 
+ /* 小屏幕样式 */
+@media (max-width: 1000px){
+	#project_title {
+		padding-top: 160px;
+		font-size: 8rem;
+	}
+	
+	#desc-video {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	#desc-text {
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	
+	#video-flash {
+		width: 700px;
+	}
+	
+	#buy-btn {
+		width: 90%;
+	}
+	.item-desc-pic {
+		min-height: 140px;
+	}
+	.title-float-block {
+		min-height: 50rem;
+	}
+	.jumping-arrow {
+		margin-top: 10rem;
+	}
+	#buy-price {
+		font-size: 32px;
+		margin-top: 0;
+	}
+	.icon-plus {
+		margin: 48px 0 48px 0;
+	}
+}
+@media (max-width: 780px){
+	#project_title {
+		padding-top: 160px;
+		font-size: 6rem;
+	}
+	#desc-text {
+		width: 86%;
+		margin-right: 7%;
+		margin-left: 7%;
+	}
+	#video-flash {
+		width: 580px;
+	}
+	#buy-btn {
+		height: 32px;
+		margin: 16px auto;
+	}
+	.btn-name {
+		font-size: 16px;
+		padding: 4px 0;
+	}
+	.item-desc-pic {
+		min-height: 100px;
+	}
+	.title-float-block {
+		min-height: 50rem;
+	}
+	.jumping-arrow {
+		margin-top: 10rem;
+	}
+	#buy-price {
+		font-size: 24px;
+	}
+	.icon-plus {
+		width: 32px;
+		height: 32px;
+		margin: 32px 0 32px 0;
+	}
+}
+@media (max-width: 640px){
+	#project_title {
+		padding-top: 120px;
+		font-size: 4rem;
+	}
+	
+	#desc-video {
+		display: none;
+	}
+	
+	#desc-text {
+		width: 86%;
+		margin-right: 7%;
+		margin-left: 7%;
+	}
+	
+	#video-flash {
+		width: 580px;
+	}
+	
+	#buy-btn {
+		width: 90%;
+		height: 32px;
+		margin: 16px auto;
+	}
+	.btn-name {
+		font-size: 16px;
+		padding: 4px 0;
+	}
+	.item-desc-pic {
+		min-height: 80px;
+	}
+	.title-float-block {
+		min-height: 40rem;
+	}
+	.jumping-arrow {
+		margin-top: 10rem;
+	}
+	#buy-price {
+		font-size: 24px;
+		margin-top: 0;
+	}
+	.icon-plus {
+		width: 32px;
+		height: 32px;
+		margin: 32px 0 32px 0;
+	}
+	.section-content-left,
+	.section-content-right{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+		float: none;
+	}
+}
+@media (max-width: 480px){
+	
+}
 /** Animation **/
 
 .bounce {
