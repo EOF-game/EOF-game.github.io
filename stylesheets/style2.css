@@ -161,7 +161,7 @@ a:hover {
 }
 /** img **/
 
-#weibo-pic {
+.link-pic {
 	width: 120px;
 }
 .pic-divide-group,
